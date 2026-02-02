@@ -1,0 +1,27 @@
+O que é autenticação?
+
+	De forma bem direta: autenticação é o processo de provar que você é quem diz ser.
+
+	Imagine que você está chegando em uma festa VIP. O segurança na porta não te conhece. Para entrar, você mostra seu RG. O segurança olha para a foto, olha para o seu rosto, confere o nome na lista e diz: "Beleza, você é o João mesmo".
+
+	Esse ato de conferir a sua identidade é a autenticação.
+
+=================================================================================================================================================================
+
+O que é Token?
+
+	O Access Token é como aquele cartão magnético que você recebe na recepção do hotel. Ele prova que você tem permissão para entrar no quarto, na academia ou na piscina.
+
+Tem duração curta (geralmende 15 minutos a 1 hora) e tem a função de autorizar o acesso a recursos como páginas, dados ou funcionalidades.
+
+	Por que a duração é tão curta?
+
+	Por segurança. Se alguém roubar seu "cartão", ele perderá a validade rápido, diminuindo o estrago.
+	
+=================================================================================================================================================================
+
+O que é RefreshToken?
+
+	O Refresh Token é como o comprovante de identidade que você deixou na recepção. Ele não abre portas, mas serve para pedir um novo cartão magnético quando o antigo expirar, sem que você precise fazer todo o processo de "check-in" (login) novamente.
+	
+	Tem uma longa duração (dias, semanas ou até meses) e tem a função de obter um novo Token. Geralmente fica guardado em um local mais seguro que o Token por ter capacidadede maior de impacto em caso de estrago.
